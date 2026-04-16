@@ -40,20 +40,21 @@ This project is a full-stack web application that allows users to upload documen
 ## How to Run Locally
 
 ### Backend
-```bash
 pip install -r requirements.txt
 uvicorn main:app --reload
-
 
 ### Frontend
 cd frontend
 npm install
 npm start
 
+---
 
 ## Deployment
 Backend: https://ai-document-assistant-b2i2.onrender.com
 Frontend: https://ai-document-assistant-webapp.vercel.app/
+
+---
 
 ## Limitations
 AI responses depend on OpenAI API quota
@@ -61,6 +62,7 @@ If quota is exceeded, fallback messages are shown
 Audio/Video transcription is not implemented yet
 Data is stored temporarily (no persistent DB in final version)
 
+--- 
 
 ## Future Improvements
 Vector search using FAISS or Pinecone
@@ -69,6 +71,8 @@ User authentication (JWT/OAuth)
 Cloud deployment (AWS/GCP/Azure)
 Real-time chat streaming
 Database integration (MongoDB/PostgreSQL)
+
+---
 
 ## Demo
 
