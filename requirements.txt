@@ -3,4 +3,4 @@ uvicorn
 pypdf
 openai
 pytest
-python-multipartS
+python-multipart
