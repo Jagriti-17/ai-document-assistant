@@ -51,26 +51,26 @@ npm start
 ---
 
 ## Deployment
-Backend: https://ai-document-assistant-b2i2.onrender.com
-Frontend: https://ai-document-assistant-webapp.vercel.app/
+-Backend: https://ai-document-assistant-b2i2.onrender.com
+-Frontend: https://ai-document-assistant-webapp.vercel.app/
 
 ---
 
 ## Limitations
-AI responses depend on OpenAI API quota
-If quota is exceeded, fallback messages are shown
-Audio/Video transcription is not implemented yet
-Data is stored temporarily (no persistent DB in final version)
+-AI responses depend on OpenAI API quota
+-If quota is exceeded, fallback messages are shown
+-Audio/Video transcription is not implemented yet
+-Data is stored temporarily (no persistent DB in final version)
 
 --- 
 
 ## Future Improvements
-Vector search using FAISS or Pinecone
-Audio/Video transcription using Whisper API
-User authentication (JWT/OAuth)
-Cloud deployment (AWS/GCP/Azure)
-Real-time chat streaming
-Database integration (MongoDB/PostgreSQL)
+-Vector search using FAISS or Pinecone
+-Audio/Video transcription using Whisper API
+-User authentication (JWT/OAuth)
+-Cloud deployment (AWS/GCP/Azure)
+-Real-time chat streaming
+-Database integration (MongoDB/PostgreSQL)
 
 ---
 
@@ -78,7 +78,7 @@ Database integration (MongoDB/PostgreSQL)
 
 A walkthrough video demonstrating:
 
-File upload
-Chat interaction
-Summary generation
-Code structure explanation
+-File upload
+-Chat interaction
+-Summary generation
+-Code structure explanation
