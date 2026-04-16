@@ -59,7 +59,7 @@ function App() {
   return (
     <div className="app">
       <div className="glass-container">
-        <h1>📄 AI Document Assistant</h1>
+        <h1>AI Document Assistant</h1>
         
 
         {/* Upload Option*/}
