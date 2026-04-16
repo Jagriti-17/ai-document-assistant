@@ -9,7 +9,7 @@ function App() {
   const [summary, setSummary] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API = "http://127.0.0.1:8000";
+  const API = "https://ai-document-assistant-b2i2.onrender.com";
 
   const handleUpload = async () => {
     if (!file) return alert("Please select a file");
