@@ -9,8 +9,8 @@ This project is a full-stack web application that allows users to upload documen
 - Upload PDF documents
 - AI-powered chatbot for document-based Q&A
 - Document summarization
-- Audio/Video upload support (transcription can be added)
-- Graceful fallback when AI service is unavailable
+- Audio/Video upload support (transcription to be added)
+- Fallback response when AI service is unavailable
 - Basic API testing using pytest
 
 
@@ -20,12 +20,12 @@ This project is a full-stack web application that allows users to upload documen
 ### Frontend:
 - React.js
 - Axios
-- CSS (Custom styling - bluish UI theme)
+- CSS 
 
 ### Backend:
 - FastAPI (Python)
 - pypdf (PDF text extraction)
-- OpenAI API (LLM-based responses)
+- OpenAI API 
 
 ### Testing:
 - Pytest
@@ -40,13 +40,13 @@ This project is a full-stack web application that allows users to upload documen
 ## How to Run Locally
 
 ### Backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+- pip install -r requirements.txt
+- uvicorn main:app --reload
 
 ### Frontend
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
 
 ---
 
@@ -76,9 +76,6 @@ npm start
 
 ## Demo
 
-A walkthrough video demonstrating:
+A walkthrough video demonstrating the features and code structure explanation.
 
-- File upload
-- Chat interaction
-- Summary generation
-- Code structure explanation
+Video Link: https://drive.google.com/file/d/1dqlqTfS20ll73EtypqjvbViZN7PKOSaP/view?usp=sharing
